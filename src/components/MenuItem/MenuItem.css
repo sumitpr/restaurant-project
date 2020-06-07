@@ -1,0 +1,18 @@
+.MenuItem {
+	padding: 10px;
+	margin: 15px;
+	border: 1px solid rgba(0, 111, 171, 0.4);
+	border-radius: 5px; }
+
+	.MenuItem img {
+		//max-width: 220px;
+		border-radius: 5px;
+		height: auto;
+	}
+
+	.MenuItem-details {
+		text-transform: capitalize; }
+		.MenuItem-details-title {
+			margin: 8px auto;
+			font-size: 1.03em;
+		}

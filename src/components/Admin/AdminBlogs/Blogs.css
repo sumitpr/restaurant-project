@@ -1,0 +1,38 @@
+.BlogDetail-title, .BlogDetail-body {
+	margin: 30px 0;
+}
+
+.BlogDetail-title {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+
+.BlogDetail-body {
+	text-align: left;
+}
+
+.BlogItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	color: #000;
+	text-align: left;
+	padding: 15px 10px;
+	margin: 15px 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px; }
+
+	.BlogItem .BlogItem-title {
+		font-weight: 600;
+	}	
+
+	.BlogItem .BlogItem-title:first-letter {
+		text-transform: uppercase;
+	}
+
+	.BlogItem-operations-wrapper {
+		display: flex;
+		flex-wrap: nowrap;
+	}

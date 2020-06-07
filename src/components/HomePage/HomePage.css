@@ -1,0 +1,74 @@
+.HomePage {
+	
+}
+	.header {
+		padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		background: rgba(0, 14, 51, 0.2);
+		background: linear-gradient(
+			to bottom,
+			rgba(0, 14, 51, 0.2),
+			rgba(0, 14, 51, 0.1)
+		);
+	}
+
+	.HomePage-hero-container: {
+		position: relative;
+	}
+
+	.HomePage-nav {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 4% 6%;
+		background: rgba(255, 255, 255, 0.15);
+		transform: translate(-50%, -50%); }
+
+		.HomePage-nav a {
+			padding: 10px;
+			color: #fff;
+			font-weight: bold;
+			font-size: 1.25em; }
+
+			.HomePage-nav a:hover {
+				color: #fff;
+			}
+
+	.HomePage .card {
+		border-color: #1274b5 !important;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+	}
+
+	.HomePage .card-text {
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #1274b5;
+	}
+
+	.customer-order-status-container {
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.95));
+		position: absolute;
+		width: 80%;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		border: 0;
+		border-radius: 12px 12px 0 0;
+		box-shadow: 0px -15px 80px rgba(0, 0, 0, 0.45);
+		max-height: 25vh;
+		overflow-y: scroll; }
+
+		.customer-order-status-container .react-bootstrap-table {
+			text-transform: capitalize;
+		}
+
+			.customer-order-status-container table {
+				border: 0 !important;
+				margin-bottom: 0; }
+				.customer-order-status-container table th, .table-bordered td, .table-bordered th {
+					border: 0 !important;
+				}
+				.customer-order-status-container thead tr {
+					border-bottom: 2px solid rgba(0, 0, 0, 0.1) !important;
+				}

@@ -1,0 +1,25 @@
+.HomePage {
+	margin: -20px;
+}
+	.header {
+		padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		background: rgba(0, 14, 51, 0.2);
+		background: linear-gradient(
+			to bottom,
+			rgba(0, 14, 51, 0.2),
+			rgba(0, 14, 51, 0.1)
+		);
+	}
+
+	.HomePage .card {
+		border-color: #1274b5 !important;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+	}
+
+	.HomePage .card-text {
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #1274b5;
+	}

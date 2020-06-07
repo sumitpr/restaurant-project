@@ -1,0 +1,28 @@
+.UserItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	color: #000;
+	padding: 15px 10px;
+	margin: 15px 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	overflow: auto; }
+
+	.UserItem .UserItem-title {
+		font-weight: 600;
+	}	
+
+	.UserItem .UserItem-title:first-letter {
+		text-transform: uppercase;
+	}
+
+	.UserItem .UserItem-email {
+		text-transform: lowercase;
+	}
+
+	.UserItem-operations-wrapper {
+		display: flex;
+		flex-wrap: nowrap;
+	}
